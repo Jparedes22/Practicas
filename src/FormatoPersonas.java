@@ -56,8 +56,8 @@ public class FormatoPersonas {
         dni2 = teclado.next();
         System.out.println("NOMBRE           EDAD  ALTURA CARNET LETRA");
         System.out.println("================ ===== ====== ====== =====");
-        System.out.printf("%s                  %d   %.2f    %b      %s %n", nombre, edad, altura, carnet, dni);
-        System.out.printf("%s                  %d   %.2f    %b      %s %n", nombre2, edad2, altura2, carnet2, dni2);
+        System.out.printf("%s          %d   %.2f    %b      %s %n", nombre, edad, altura, carnet, dni);
+        System.out.printf("%s          %d   %.2f    %b      %s %n", nombre2, edad2, altura2, carnet2, dni2);
 
     }
 }
