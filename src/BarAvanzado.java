@@ -35,7 +35,7 @@ public class BarAvanzado {
         double cantidad = total / alumnos;
         System.out.println("ARTICULO     CANTIDAD PRECIO  COSTE");
         System.out.printf("Bebidas        %d       %.2f      %.2f%n", bebidas, precioBe, costeBe);
-        System.out.printf("Bocadillos        %d       %.2f      %.2f%n", bocadillos, precioBo, costeBo);
+        System.out.printf("Bocadillos     %d       %.2f      %.2f%n", bocadillos, precioBo, costeBo);
         System.out.println("--------------------------------------------------");
         System.out.printf("Total: %.2f%n", total);
         System.out.printf("Cantidad por alumno:%.2f%n", cantidad);
